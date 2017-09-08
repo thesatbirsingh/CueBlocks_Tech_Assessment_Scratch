@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Technical Assessment - Build From Scratch | CueBlocks</title>
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles-scratch.css">
+  <!-- Latest compiled and minified CSS -->
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="position:absolute; width: 100%; top: 0;">
+  <nav class="navbar navbar-custom navbar-fixed-top" >
+    <div class="container">
+      <div class="navbr-brand"><a href="#" id="inVerr"><i class="fa fa-ravelry"></i></a></div>
+      <div class="navbr-btn" style="right: 0px !important">
+          <div id="nav-icon" class="navIcon">
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<div id="myNav" class="overlay">
+  <div class="overlay-content">
+    <a href="#" class="glitchEffect" data-text="Agency">Agency</a>
+    <a href="#" class="glitchEffect" data-text="Works">Works</a>
+    <a href="#" class="glitchEffect" data-text="Contact">Contact</a>
+
+  </div>
+</div>
+
+<h1 class="heading">FEATURED PRODUCTS</h1>
+
+<ul class="carousel carousel__product">
+    <input type="radio" id="1" name="enable" checked="checked" class="carousel__enable">
+    <input type="radio" id="2" name="enable" class="carousel__enable">
+    <input type="radio" id="3" name="enable" class="carousel__enable">
+
+    <div class="carousel__controls">
+      <label for="2" class="carousel__control carousel__control--forward"><img src="img/arrow.gif"></label>
+      <label for="3" class="carousel__control carousel__control--backward"> </label>
+    </div>
+    <div class="carousel__controls">
+      <label for="3" class="carousel__control carousel__control--forward"><img src="img/arrow.gif"></label>
+      <label for="1" class="carousel__control carousel__control--backward"> </label>
+    </div>
+    <div class="carousel__controls">
+      <label for="1" class="carousel__control carousel__control--forward"><img src="img/arrow.gif"></label>
+      <label for="2" class="carousel__control carousel__control--backward"> </label>
+    </div>
+
+
+    <div class="carousel__track">
+      <div class="carousel__slide">
+        <header class="header1">
+          <div class="container">
+              <div class="intro__branding">
+                <h4>BRANDING</h4>
+                <p>We know what moves people. We develop brands that help businesses reinvent themselves with their customers and employees. We create amazing brands, proudly, everyday!</p>
+                <a href="#">VIEW PROJECT</a>
+              </div>
+              <div class="intro__divider">
+                <span>/</span>
+              </div>
+              <div class="intro__image">
+                <img src="img/ovegano_branding.png">
+              </div>
+            </div>
+        </header>
+        <hr>
+
+        <section id="process">
+          <div class="container">
+            <div class="process__content">
+              <div class="process__title">
+                <h4>GRAPHIC</h4>
+                <img src="img/ovegano.svg">
+              </div>
+            </div>
+            <span class="spacer"></span>
+            <div class="process__content">
+              <div class="process__title">
+                <h4>COLOR PALETTE</h4>
+                <div class="palette palette1">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <span class="spacer"></span>
+            <div class="process__content">
+              <div class="process__title">
+                <h4>FONTS USED</h4>
+                <p id="font1">Shadows</p>
+                <p id="font2">Handlee</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="carousel__slide">
+        <header class="header2">
+          <div class="container">
+                <div class="intro__branding brand1">
+                  <h4>BRANDING</h4>
+                  <p>We know what moves people. We develop brands that help businesses reinvent themselves with their customers and employees. We create amazing brands, proudly, everyday!</p>
+                  <a href="#">VIEW PROJECT</a>
+                </div>
+                <div class="intro__divider">
+                  <span></span>
+                </div>
+                <div class="intro__image">
+                <img src="img/hirable_branding.png">
+              </div>
+          </div>
+        </header>
+        <hr>
+
+        <section id="process">
+          <div class="container">
+            <div class="process__content">
+              <div class="process__title">
+                <h4>GRAPHIC</h4>
+                <img src="img/hirable.svg">
+              </div>
+            </div>
+            <span class="spacer"></span>
+            <div class="process__content">
+              <div class="process__title">
+                <h4>COLOR PALETTE</h4>
+                <div class="palette palette2">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <span class="spacer"></span>
+            <div class="process__content">
+              <div class="process__title">
+                <h4>FONTS USED</h4>
+                <p id="font1">Shadows</p>
+                <p id="font2">Handlee</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="carousel__slide">
+        <header class="header3">
+          <div class="container">
+
+                <div class="intro__branding brand1">
+                  <h4>BRANDING</h4>
+                  <p>We know what moves people. We develop brands that help businesses reinvent themselves with their customers and employees. We create amazing brands, proudly, everyday!</p>
+                  <a href="#">VIEW PROJECT</a>
+                </div>
+
+                <div class="intro__divider">
+                  <span></span>
+                </div>
+
+                <div class="intro__image">
+                <img src="img/atg_branding.png">
+              </div>
+          </div>
+        </header>
+        <hr>
+
+        <section id="process">
+          <div class="container">
+            <div class="process__content">
+              <div class="process__title">
+                <h4>GRAPHIC</h4>
+                <img src="img/leaf.svg">
+              </div>
+            </div>
+            <span class="spacer"></span>
+            <div class="process__content">
+              <div class="process__title">
+                <h4>COLOR PALETTE</h4>
+                <div class="palette palette3">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <span class="spacer"></span>
+            <div class="process__content">
+              <div class="process__title">
+                <h4>FONTS USED</h4>
+                <p id="font1">Shadows</p>
+                <p id="font2">Handlee</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="carousel__indicators">
+   <label for="1" class="carousel__indicator"></label>
+   <label for="2" class="carousel__indicator"></label>
+   <label for="3" class="carousel__indicator"></label>
+ </div>
+  </ul>
+<!-- Custom JavaScript -->
+<script src="main-scratch.js" charset="utf-8"></script>
+
+</body>
+</html>
